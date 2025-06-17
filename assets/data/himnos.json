@@ -1,0 +1,1901 @@
+{
+  "1": {
+    "titulo": {
+      "Tze": "Ja'at nax Ch'ul Diosat te ayat ta ch'ulchan",
+      "esp": "Solo a Dios la gloria",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Ja' ac'a chinajuc yutsilal ta bayuc sbajtel q'uinal. Ro. 11:36",
+      "esp": "A él sea la gloria por los siglos de los siglos. Ro. 11.36",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Ja'at nax Ch'ul Diosat te ayat ta ch'ulchan,\nTsacbotic te awich'el ta muc' cu'untic.\nYa me yich'at ta muc' te ch'ul abatetic.\nJa'at te muc' Jcoltaywanejat cu'untic",
+
+          "esp":
+          "Bendito tú seas en sitios celestes,\nrecibe los cantos de gloria y loor;\nbendito tú seas, te cantan las huestes\nque tú redimiste, ¡oh, gran Salvador!",
+
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original":
+          "Ja'nax Dios ay yutsil, te Ch'ul Dios toj yo'tan.\nJa'nax Dios ay yutsil, Cajwaltic Jesús.\nJa'nax Dios ay yutsil, te Ch'ul Espiritu,\nJa'nax Dios ay yutsil, ta sbajtel q'uinal.",
+
+          "esp":
+          "Sólo a Dios la gloria, el Padre perfecto;\nsólo a Dios la gloria, Jesús, nuestro bien;\nsólo a Dios la gloria, el gran Paracleto;\nsólo a Dios la gloria, por siempre. Amén.",
+
+          "eng": "Chorus English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Ta swenta te Cristo, la atsa te lum awu'un,\nTa namey chajbanbil te yawil awu'un,\nLa awic' ta atojol, la awac'bey bendición,\nLa awac'bey sc'ulejal, soc la ac'uxtay.",
+
+          "esp":
+          "Por Cristo, el amado, tu pueblo escogido,\nde antaño apartado, le das un lugar;\ntú le haces acepto y le has bendecido\nen riqueza y gracia, por tu voluntad.",
+          
+          "eng": "Verse 2 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Jich yu'un te yich'el ta muc' te Ach'ul Bill,\nYa cac'tic ta spisil soc sbujts' co'tantic.\nJa'at ay awutsil, ma'yuc alajibal,\nJa'at ay awutsil ta sbajtel q'uinal.",
+          
+          "esp":
+          "Por eso la gloria a tu nombre bendito\nrendimos fervientes ¡oh, Dios eternal!\nA ti sea la gloria, ¡oh, Dios infinito!\nA ti sea la gloria por siempre jamás",
+          
+          "eng": "Verse 3 English..."
+        }
+      }
+    ]
+  },
+  "2": {
+    "titulo": {
+      "Tze": "Ja'nax Dios ay yutsil",
+      "esp": "A Dios sea la gloria",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Ac'a chicnajuc yutsilal te Cristo Jesús. Ef. 3:21",
+      "esp": "A él sea gloria en la iglesia en Cristo Jesús. Ef. 3.21",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "¿Bi me ya cac'bey te la xc'uxtayon te Cajwal?\nMa ba xtoj cu'un te la smal xch'ich' el te Cajwale;\nTe sc'ayoj tsobol ch'ul abatetic, ma xtoj a te yalel wocol,\nYa jc'an ya caiybey yutsil cuxinel te ya yac'bon stuquel.",
+          
+          "esp":
+          "¿Cómo agradecer lo que hizo el Señor por mí?\nQue, sin merecer, derramó su sangre carmesí;\nUn coro de un millón de ángeles no expresará mi gratitud,\nPues lo que soy y un día anhelo ser, lo debo todo a él.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original":
+          "Ja'nax Dios ay yutsil, ja'nax Dios ay yutsil,\nja'nax Dios ay yutsil. La xc'uxtayon Cajwal,\nTa xch'ich'el te la scoltayon, ta yu'el la spoxtayon.\nJa'nax Dios ay yutsil, la xc'uxtayon Cajwal.",
+
+          "esp": "A Dios sea la gloria, a Dios sea la gloria,\nA Dios sea la gloria por lo que hizo por mí.\nCon su sangre me ha salvado, su poder me ha sanado,\nA Dios sea la gloria por lo que hizo por mí.",
+          
+          "eng": "Chorus English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Ya jc'an lecuc te jcuxlejal, te t'ujbiluc ta sit stuquel,\nTe me ay bi ya xju' cu'un spasel,\nYa me cac'bey ta stojol Cajwal.",
+
+          "esp":
+          "Quiero vivir una vida\nque sea agradable sólo a él,\ny si ganare alguna fama,\ntoda al Calvario la llevaré.",
+
+          "eng": "Verse 2 English..."
+        }
+      },
+      {
+        "tipo": "segcoro",
+        "texto": {
+          "original":
+          "Ta xch'ich'el te la scoltayon,\nTa yu'el la spoxtayon,\nJa'nax Dios ay yutsil,\nLa xc'uxtayon Cajwal.",
+          
+          "esp":
+          "Con su sangre me ha salvado\nsu poder me ha sanado,\na Dios sea la gloria\npor lo que hizo por mí.",
+          
+          "eng": "Chorus English..."
+        }
+      }
+    ]
+  },
+  "3": {
+    "titulo": {
+      "Tze": "Ja' awu'un, ja' awu'un, ja' awu'un Cajwal",
+      "esp": "Eres digno",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Cajwal ja' awu'un te ich'el ta muq'ue. Ap. 4.11",
+      "esp": "Señor, digno eres, porque tú creaste todas las cosas. Ap. 4.11",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Ja' awu'un, ja' awu'un, ja' awu'un Cajwal,\nTe alel wocol, te ich'el ta muc',\nAy yutsilal awu'el.\nTa spisil bitic ay, ja'at la achicnantes,\nChicnaj ta sc'anjel awo'tan,\nSpisil la apas ta swenta awutsilal\nJa' awu'un Cajwal.",
+
+          "esp":
+          "Eres digno, eres digno,\neres digno, Señor,\nde alabanza, honra y gloria,\ngloria y todo poder.\nPues todas las cosas\npor ti fueron hechas\ny existen por tu voluntad;\ntodo has creado para tu gloria;\neres digno, Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "4": {
+    "titulo": {
+      "Tze": "Ay yutsil Alalchij te laje",
+      "esp": "Digno es el Cordero que murió",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Te Alalchij la yich' milel Ap. 5:12",
+      "esp": "El Cordero que fue inmolado es digno. Ap. 5.12",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Ay yutsil Alalchij te laje,\nAy yutsil Alalchij te laje,\nAy yutsil Alalchij te laje.\nAy ta swenta yich'el yu'el, sc'ulejal, soc sp'ijil,\nAy ta ich'el ta muc', soc yutsil",
+          
+          "esp":
+          "Digno es el Cordero que murió,\ndigno es el Cordero que murió,\ndigno es el Cordero que murió\nde recibir\nfuerza, riqueza, saber y poder,\nhonra y gloria y bendición.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Ay yutsil Alalchij,\nAy yutsil Alalchi,\nAy yutsil Alalchij te laje.\nAy yutsil Alalchij.",
+          
+          "esp":
+          "Digno es el Cordero,\nDigno es el Cordero,\nDigno es el Cordero que murió;\nDigno es el Cordero.",
+
+          "eng": "Verse 2 English..."
+        }
+      }
+    ]
+  },
+  "5": {
+    "titulo": {
+      "Tze": "Ja' te Dios yu'un ch'ul abatetic",
+      "esp": "¡Gloria, gloria, aleluya!",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Te guerra ma ja'uc awu'unic, ja' yu'un te Diose. 2 Cr. 20:15",
+      "esp": "No es vuestra la guerra, sino de Dios. 2 Cr. 20.15",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Ja' te Dios yu'un ch'ul abatetic, ja' smuc'ul co tan.\nYa me quich' ta muc' ta c'ayojetic soc te sbujts' co'tan.\nJa' smandal stuquel te ya xlem tel te tsantsewaletic,\nMa ba ya xiwteson.",
+
+          "esp":
+          "Es el Dios de los ejércitos\nen quien yo confiaré,\ny con címbalos de gozo\nal Señor ensalzaré;\nél despide los relámpagos,\nmas nunca temeré,\nél es mi protector.",
+
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original":
+          "Ay yutsil ta ich'el ta muc'\nAy yutsil ta ich'el ta muc'\nAy yutsil ta ich'el ta muc',\nJa' te Icoltaywanej.",
+          
+          "esp":
+          "¡Gloria, gloria, aleluya!\n¡Gloria, gloria, aleluya!\n¡Gloria, gloria, aleluya\na nuestro Salvador!",
+          
+          "eng": "Chorus English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Ma ta yipuc ants-winiquetic ya ya'iy tsalaw Jesús,\nMa wocoluc ya ya'iy ya stsalbey yip te pucuje.\nJa' nax ta yu'el te Ch'ul Espiritu yu'un te Dios,\nYa xju' yu'un stsalel.",
+          
+          "esp":
+          "Con ejército no gana sus victorias el Señor,\nni con fuerza lucha en contra de Satán, el tentador;\nla potencia del Espíritu, ha dicho el Dios de amor,\nes la que vencerá.",
+          
+          "eng": "Verse 2 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Tey ayin ta bay te lum Belén te Cajwaltic Jesús.\nC'ax ta lajuneb xcha' winic ya'wilal te laj ta cruz.\nCuxulix ta sbajtel q'uinal, la stsalix te muquenal,\nTe Sbiil ya quich' ta muc'.",
+          
+          "esp":
+          "En Belén de Palestina el Señor Jesús nació,\ny después de treinta años en la cruenta cruz murió;\npero vive para siempre, pues la tumba ya venció;\nsu nombre alabaré.",
+          
+          "eng": "Verse 2 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original":
+          "Ajwalil yu'un ajwaliletic nopol ya xtalix.\nYa xtal yic' bael te lum yu'un ta ba ay te tocal.\nJich me ya jointic ta jpisiltic ta sbajtel q'uinal,\nTe Cajwaltic Jesús.",
+          
+          "esp":
+          "El Señor de los señores ya muy pronto volverá,\ny a su pueblo con gran gozo a las nubes llevará;\ny por siempre moraremos todos en la eternidad\ncon nuestro Salvador.",
+          
+          "eng": "Verse 2 English..."
+        }
+      }
+    ]
+  },
+  "6": {
+    "titulo": {
+      "Tze": "Ya jc'ajintaytic awutsil Cajwal",
+      "esp": "A ti cantamos la gloria, Señor",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Ya xc'ajinic soc sbujts' yo'tanic ta swenta smuc'ul te Diose. Is. 24:14.",
+      "esp": "Cantarán gozosos por la grandeza de Jehová. Is. 24.14",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Ya jc'ajintaytic awutsil Cajwal,\nTa swenta te slequil xc'uxul awo'tan.\nJa'at awu'un te ich'el ta muc',\nJa' cuxlejalat, ayat ta c'oponel.",
+          
+          "esp":
+          "A ti cantamos la gloria, Señor,\npor tu bondad y por tu grande amor.\nEres tú digno de todo honor;\nfuente de vida, he aquí el clamor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original":
+          "Muc' Dios ta ch'ulchan,Jcoltaywanej.\nYa cac'tic te awich'el ta muc',\nJa'at atalel muc' Diosat,\nYa jpejc'an jba, ya calbat lec ac'oplal.",
+          
+          "esp":
+          "Oh, Rey del cielo, gran Salvador,\na ti te damos nuestro loor.\nSer supremo, Dios sin igual,\ncon humildad te alabamos, Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Ja' te Jcoltaywanej te laj ta cruz,\nC'ax swocol, la yac'botic saquil q'uinal.\nJa' te mach'a la smal yutsil ch'ich' el,\nTe Jesucristo te ay ta c'oponel.",
+          
+          "esp":
+          "Al Salvador quien murió en la cruz,\na quien con sacrificio nos dio la luz,\na quien con sangre preciosa de amor,\na Jesucristo, he aquí el clamor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Te mutetic ya yalbat awutsil,\nTe nichimetic ya yalbat awutsil.\nTe alnich'anetic c'ux ta awo'tan,\nOra to, ya yalic wocol ta atojol.",
+          
+          "esp":
+          "Cantan las aves tu gloria, Señor;\nbrillan las flores, expresando loor,\ny los que en deuda están a tu amor,\ncantan con gratitud ahora, Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "7": {
+    "titulo": {
+      "Tze": "Ay yutsil Sbiil te Cristo",
+      "esp": "Gloria al nombre de Cristo",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Te Jesús ac'botix yich' yutsilal soc ac'otix ta ich'el ta muc'. He. 2:9",
+      "esp": "Vemos a Jesús, coronado de gloria y de honra. Heb. 2.9",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Ay yutsil Sbiil te Cristo,\nAy yutsil Sbiil te Cristo,\nJa' Dios cu'un, soc ja' quiptic.\nJcoltaywanej cu'un, ja' smuc'ul co'tan,\nAy yutsil Sbiil te Cristo.",
+          
+          "esp":
+          "Gloria al nombre de Cristo,\ngloria al nombre de Cristo,\nes mi Dios, es mi fuerza,\nes mi libertador en quien confiaré.\nGloria al nombre de Cristo.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "8": {
+    "titulo": {
+      "Tze": "Ta jcuxlejal ya cal wocol",
+      "esp": "En mi vida gloria te doy",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Spisil te bila ya apasique, ja'uc me lec ac'oplal ya xc'ot yu'un te Diose, ta swenta te Jesucristoe. 1 P. 4:11",
+      "esp": "Para que en todo sea Dios glorificado por Jesucristo. 1 P. 4.11",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Ta jcuxlejal, ya cal wocol,\nYa cal wocol.\nTa jcuxlejal, ya cal wocol Cajwal.",
+          
+          "esp":
+          "En mi vida gloria te doy,\ngloria te doy,\nen mi vida gloria te doy, Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Ya xc'ajinon, ya cal wocol,\nYa cal wocol.\nYa xc'ajinon, ya cal wocol Cajwal.",
+          
+          "esp":
+          "En mi canto gloria te doy,\ngloria te doy,\nen mi canto gloria te doy, Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Ta bay tsoblej, ya cal wocol,\nYa cal wocol.\nTa bay tsoblej, ya cal wocol Cajwal.",
+          
+          "esp":
+          "En tu iglesia gloria te doy,\ngloria te doy,\nen tu iglesia gloria te doy, Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original":
+          "Ta ora to, ya cal wocol,\nYa cal wocol.\nTa ora to, ya cal wocol Cajwal.",
+          
+          "esp":
+          "En tu mundo gloria te doy,\ngloria te doy,\nen tu mundo gloria te doy, Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "9": {
+    "titulo": {
+      "Tze": "Te Ach'ul C'op ts'ibubil",
+      "esp": "Santa Biblia",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Cac'oj ta co'tan te ac'ope swenta yu'un ma jta jmul ta atojol a. Sal. 119:11",
+      "esp": "En mi corazón he guardado tus dichos para no pecar contra ti. Sal. 119.11",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op ts'ibubil, ja' jc'ulejal awu'un,\nJa' te smelelil Ac'op, ja' sc'anjel te awo'tan,\nJa' ya yalbon bi quilel, soc ya yalbon bay ya xboon.",
+          
+          "esp":
+          "Santa Biblia, para mí eres un tesoro aquí;\ntú contienes con verdad la divina voluntad;\ntú me dices lo que soy, de quién vine y a quién voy.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Te wocol ya xch'uun co'tan, ya atac'uyon yu'un.\nXojobajem cacan yu'un, ja ya yic'on bael ta be,\nTa bay te xc'uxul yo'tan te Jcoltaywanej cu'un.",
+          
+          "esp":
+          "Tú reprendes mi dudar, tú me exhortas sin cesar;\neres faro que a mi pie va guiando por la fe\na las fuentes del amor del bendito Salvador.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op smelelil, swenta Ch'ul Espíritu.\nJa' ya yac'bon yip co'tan, c'alal ayon ta wocol,\nJa' ya awac'bon ca'ly tsalaw, jich ma xyalon ta mulil.",
+          
+          "esp":
+          "Eres infalible voz del Espíritu de Dios,\nque vigor al alma da cuando en aflicción está;\ntú me enseñas a triunfar de la muerte y el pecar.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op ya yalbon, te ya xba join te Jesús.\nManchuc me ma xtojobon, ya a'tojteson ta be\nTe Ach'ul C'op ts'ibubil, ja' jc'ulejal awu'un.",
+          
+          "esp":
+          "Por tu santa letra sé que con Cristo reinaré;\nyo, que tan indigno soy, por tu luz al cielo voy;\nSanta Biblia, para mí eres un tesoro aquí.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "10": {
+    "titulo": {
+      "Tze": "Te Ach'ul C'op ya me jc'ajintay",
+      "esp": "Tu palabra es mi cántico",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Te mandaliletic awu'un ja' c'ayojetic cu'un. Sal. 119:54.",
+      "esp": "Cánticos fueron para mí tus estatutos. Sal. 119.54",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op ya me jc'ajintay,\nja' ya yac'bon sbujts' q'uinal,\nA'tejibal yu'un te Ch'ul Dios,\nja' jmajquil yu'un uts'inel.",
+          
+          "esp":
+          "Tu palabra es mi cántico,\nesperanza y gozo da;\nes espada, arma divinal\ny escudo contra el mal.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original":
+          "Ta swenta Ach'ul C'op ya cal wocol,\nJtatic Dios Jc'uxtaywanej.\nJa' Ajwalilat ta sbajtel q'uinal,\nWocol la awalbon Cajwal.",
+
+          "esp":
+          "Por la santa Biblia te alabo,\nPadre amante, mi Señor.\nTe adoro Cristo, Rey eterno;\ngracias, oh Consolador.",
+
+          "eng": "Chorus English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op ja' me jc'ajc'\nstuquel, sacuben q'uinal yu'un.\nC'ax mulanbil jich bit'il oro,\nc'ax jich a te bit'il chab.",
+          
+          "esp":
+          "Tu palabra es mi lámpara,\nluz divina y guía fiel;\nmás deseable que oro y plata es,\ny más dulce que la miel.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op ja' jp'üjteswanej,\nts'unubil te ma sna' xlaj.\nSpisil ora ya jc'an jnopilay,\ntey ya jta a te colel.",
+          
+          "esp":
+          "Tu palabra es mi gran mentor,\nes semilla, eterno don;\nquiero siempre en ella meditar,\nhallo allí la salvación.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op la yich' tel colel,\nya yac'bon smuc'ul co'tan.\nJa' martillo te bayal yu'el,\nya x'atej ta co'tantic.",
+          
+          "esp":
+          "Tu palabra trae libertad,\nme consuela la aflicción;\ncual martillo y espejo es,\nfuego en el corazón.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 5,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op ja'me lequil waj,\nja' ya xlecubon yu'un.\nTe Ach'ul C'op ja' lequil we'elil,\njich ya xcuxinon yu'un.",
+          
+          "esp":
+          "Tu palabra es mi agua y pan,\nlimpia el ser y fuerza da;\nleche y carne encuentro yo allí\nque a mi alma sostendrá.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "11": {
+    "titulo": {
+      "Tze": "Te Ach'ul C'op jich bit'il c'ajc'",
+      "esp": "Tu palabra santa llama",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Te sc'op Dios cu'untic, stalel ay sbajtel q'uinal stuquel. Is. 40:8.",
+      "esp": "Tu ley está en medio de mi corazón. Is. 40.8",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op jich bit'il\nc'ajc' ta stojol te jmulawil,\nJa' ya yac'bey lamal q'uinal,\nja' te xc'uxul awo'tan.\nTe me ya xch'uun soc te yo'tan,\nya me ya'ly ta xcuxlejal,\nTe bit'il c'ux ta awo'tan,\n¡Cajwal, Icoltaywanejat!",
+          
+          "esp":
+          "Tu palabra santa llama\na todo hombre pecador,\npara darle siempre calma\ny llenarlo de tu amor;\nsi la acepta con el alma\nsentirá su corazón\nque de veras tú le amas,\n¡oh, divino Salvador!",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original":
+          "Ch'ulchan balumilal soc mar,\nJc'axel nax ay stuquelic.\nYan te Ach'ul C'op stalel ay,\nTa swenta sbajtel q'uinal.",
+          
+          "esp":
+          "Cielo, estrellas, mar y tierra,\ntodo, todo pasará;\nsólo tu palabra eterna\npor los siglos durará.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op ya xcoltaywan,\nsmelelil, ja' cuxlejal,\nXojobajem spisil ora,\nsjoinejon banti ayon.\nAc'bon te yacuc xju' cu'un\nta xcuchel te jwocole,\nJich ya xc'oon ta utsilal\nta banti ayat Cajwal.",
+          
+          "esp":
+          "Tu palabra salvadora\nes verdad, es vida, es luz\nque ilumina a toda hora\nhasta donde te hallas tú.\nHaz que tenga yo la honra\nde llevar siempre tu cruz\ny alcanzar así la gloria,\ndonde moras, mi Jesús.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Te Ac'op, waj yu'un cuxinel,\nja' swe'el te jch'ulele,\nC'alal ma'yuc yip te co'tan,\nya xmuc'ub q'uinal yu'un.\nSpisil mach'a ya sc'an xch'uunic,\nya xcuxin sbajtel q'uinal,\nJa'ya ac'an te ya xcuxinic,\nte ya ajoin sbajtel q'uinal.",
+          
+          "esp":
+          "Tu palabra es pan de vida,\nes sustento espiritual;\ncuando llega al alma herida\nle da alivio, le da paz.\nTodo aquel que la recibe,\nnunca, nunca morirá,\nporque tú quieres que viva\npor toda la eternidad.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "12": {
+    "titulo": {
+      "Tze": "Te Xch'ul C'op te Dios c'ax t'ujbil",
+      "esp": "La ley de Dios perfecta es",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Spisil te bila ts'ibubil ta Sjun te Diose, loq'uem tel ta yo tan te Diose. 2 Ti. 3:16.",
+      "esp": "Toda la Escritura es inspirada por Dios y útil. 2 Ti. 3.16",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Te Xch'ul C'op te Dios c'ax t'ujbil,\nya yac' jsujtes co'tantic.\nTe bitic yaloj smelelil,\nya yac'botic sbujts' q'uinal.",
+          
+          "esp":
+          "La ley de Dios perfecta es,\ndel mal convierte al alma;\nsus testimonios fieles son,\npues brindan dulce calma.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original":
+          "¡Jc'anojbat te Ac'op!\n¡Jc'anojbat te Ac'op!\nC'ax t'ujbil ya ca'ly\nte snopel Ac'op,\n¡Jc'anojbat te Ac'op!\n¡Jc'anojbat te Ac'op!\nMa'yuc bi ya spaj\nte Ach'ul C'ope.",
+          
+          "esp":
+          "¡Cuánto amo tu ley!\n¡Cuánto amo tu ley!\nEs para mi alma\ngrata meditación.\n¡Cuánto amo tu ley!\n¡Cuánto amo tu ley!\nEs para mí sin\npar meditación.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Te mandalil yu'un Cajwaltic,\nya yalbey te yutsilal.\nTe mandalil ja' Xch'ul C'op Dios,\nya smal tel ta jtojoltic",
+          
+          "esp":
+          "Los estatutos del Señor\nsu rectitud proclaman,\nsus mandamientos puros son,\npues gracia y luz derraman.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "T'ujbil te yich'el ta muc' Dios,\nsbajtel q'uinal ma sna' xlaj.\nStojil ya xchajpanwan te Dios,\nstojil ay te c h ' u l C'ope.",
+          
+          "esp":
+          "Muy limpio y puro es el temor\nde Dios, por siempre dura:\nlos juicios de Jehová, verdad,\ny su justicia pura.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original":
+          "C'ax t'ujbil te Xch'ul C'op te Dios,\nc'ax jich te bit'il oro.\nYa x'oquin jich bit'il te chab,\nte Ac'op c'ax muc' sc'oplal.",
+          
+          "esp":
+          "Es más preciosa que el metal\ny que el oro afinado,\nlo que destila del panal\ntu ley lo ha superado.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 5,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op ya xtojteswan,\nta stojol jch'uunjeletic.\nTe mach'a ya snop te a C'op,\nya staic te majtanile.",
+          
+          "esp":
+          "En ellos hallan corrección\nlos siervos del Señor\ny en observarlos con amor\nhay grande galardón.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "13": {
+    "titulo": {
+      "Tze": "Cha' c'ajintaybon xan ca'iy.",
+      "esp": "Bellas palabras de vida",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Moisés, ja' ac'bot te C'op swenta cuxinel te la yac'botique. Hch. 7:38.",
+      "esp": "Moisés recibió palabras de vida que darnos. Hch. 7.38",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Cha' c'ajintaybon xan ca'ly,\nt'ujbil C'op yu'un cuxlejal,\nTey ya jta a te sbujts' co'tan,\nt'ujbil C'op yu'un cuxlejal,\nTilem ta jcuxlejal,\nja' j'ic'wanej cu'un.",
+          
+          "esp":
+          "Oh, cantádmelas otra vez,\nbellas palabras de vida;\nhallo en ellas mi gozo y luz,\nbellas palabras de vida.\nSí, de luz y vida,\nson sostén y guía.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original":
+          "Binax yutsil, binax yutsil,\nt'ujbil C'op yu'un cuxlejal,\nBinax yutsil, binax yutsil,\nt'ujbil C'op yu'un cuxlejal.",
+          
+          "esp":
+          "¡Qué bellas son, qué bellas son!\nBellas palabras de vida.\n¡Qué bellas son, qué bellas son!\nBellas palabras de vida.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Jesucristo ya yac'botic,\nt'ujbil C'op yu'un cuxlejal,\nAiybeya awaiy te yutsil Sc'op,\nt'ujbil C'op yu'un cuxlejal,\nYa sc'an ya scoltayat,\nya yic'at ta ch'ulchan.",
+          
+          "esp":
+          "Jesucristo a todos da\nbellas palabras de vida;\noye su dulce voz, mortal,\nbellas palabras de vida.\nBondadoso te salva,\ny al cielo te llama.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Bayal sbujts' ta c'ajintayel,\nt'ujbil C'op yu'un cuxlejal,\nYa spasbat perdón yu'un amul,\nt'ujbil C'op yu'un cuxlejal,\nTilem ta jcuxlejal,\nja' j'ic'wanej cu'un.",
+          
+          "esp":
+          "Grato el cántico sonará,\nbellas palabras de vida;\ntus pecados perdonará,\nbellas palabras de vida.\nSí, de luz y vida\nson sostén y guía.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "14": {
+    "titulo": {
+      "Tze": "Te Ach'ul C'op loq'uem tel ta awo'tan",
+      "esp": "Libro santo, por Dios inspirado",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Te xch'uunjel o'tanile, ya xchicnaj ta swenta ya'iyel stojol te Sc'op Diose. Ro. 10:17",
+      "esp": "La fe es por el oír, y el oír, por la palabra de Dios. Ro. 10.17",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Te Ach'ul C'op loq'uem tel ta awo'tan,\nja' smelelil C'op ta sbajtel q'uinal.\nTal awac' ta libre te jmulawil,\nte mach'atic ayic ta xiwel.\nAwaloj te ay t'ujbil awilal,\nta banti ay bayal sbujts' q'uinal,\nTe ya awac' chicnajuc ta ilel,\nte bin awaloj ta Ach'ul Jun.",
+          
+          "esp":
+          "Libro santo, por Dios inspirado,\nmanantial de verdades eternas,\nhas venido a romper las cadenas\ndel pecado, ignorancia y temor.\nTú nos hablas de regias mansiones,\nde un destino feliz más allá;\nmanifiesto a la vista nos pones\nlo que al santo su Dios le dará.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Stojil ay te mandalil yu'un Dios,\nya yic'otic bael ta lequil be,\nTe mach'a peq'uel c'ux ta awo'tan,\nya xmuc'ub yu'un te a C'ope.\nAwac'obey te lamal q'uinale,\nte la awac'bey te ja' yuch'e,\nLa staix te majtanil ma sna' xlaj,\nja' te mach'a la xch'uun te Ac'op.",
+          
+          "esp":
+          "Es perfecto el mandato divino,\nrectamente encamina a las almas,\nal pequeño a quien tú tanto amas,\ntus preceptos lo hacen crecer.\nPaz y gozo perfecto le has dado\nal mortal que en tus aguas bebió;\ngalardón inmortal ha logrado,\nel que fiel tu mandato guardó.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Tilem ta balumilal te Ac'op,\nta stojol te jmulawiletique,\nPujquix ta stojolic te sbujts' q'uinal,\npujquix ta spamal balumilal.\nDios cu'un jambon me te snopjibal,\njich ya xc'ot ta co'tan te Ac'op,\nAc'bon te ya xju' cu'un xch'uunele,\njich ya cac'at ta ich'el ta muc'.",
+          
+          "esp":
+          "Sigue siempre brillando en el mundo,\nque aún millones tu luz desconocen,\ny a fin que tu influencia ellos gocen,\nen el mundo te haré circular.\nDios bendito, despeja mi mente\npara ver tu perfecta verdad,\nhaz la guarde por siempre obediente\nalabando tu excelsa bondad.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "15": {
+    "titulo": {
+      "Tze": "Xojobajem cacan yu'un te Ach'ul C'op",
+      "esp": "Lámpara es a mis pies tu palabra",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Te jp'üjubteseltic ja'ic lámpara c'oemic... Pr. 6:23",
+      "esp": "El mandamiento es lámpara, y la enseñanza es luz. Pr. 6.23",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Xojobajem cacan yu'un te Ach'ul C'op,\nXojobajem cacan yu'un te Ach'ul C'op,\nXojobajem cacan yu'un te Ach'ul C'op,\nSoc xojobajem te jbe yu'un.",
+          
+          "esp": 
+          "Lámpara es a mis pies tu palabra,\nlámpara es a mis pies tu palabra,\nlámpara es a mis pies tu palabra\ny lumbrera a mi camino.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Ya xojobaj q'uinal yu'un te Ac'op,\nYa xojobaj q'uinal yu'un te Ac'op,\nYa xojobaj q'uinal yu'un te Ac'op,\nJa'me ya yac' sp'ijil o'tanil.",
+          
+          "esp": 
+          "La exposición de tus dichos alumbra,\nla exposición de tus dichos alumbra,\nla exposición de tus dichos alumbra\ny hace entender a los simples.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Sbajtel q'uinal ma'yuc bi ora ya xlaj,\nSbajtel q'uinal ma'yuc bi ora ya xlaj,\nSbajtel q'uinal ma'yuc bi ora ya xlaj,\nTe Ac'ope stalel ay stuquel.",
+          
+          "esp": 
+          "Y para siempre, oh Señor, permanece,\ny para siempre, oh Señor, permanece,\ny para siempre, oh Señor, permanece\ntu palabra en los cielos.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "16": {
+    "titulo": {
+      "Tze": "Taquin co'tan yu'un Ach'ul C'op",
+      "esp": "De tus mandatos tengo sed",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Ya jic' co tan, yu'un ya sc'an co'tan te mandaliletic awu'une. Sal. 119:131",
+      "esp": "Mi boca abrí y suspiré, porque deseaba tus mandamientos. Sal. 119.131",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Taquin co'tan yu'un Ach'ul C'op,\nya jc'ambat c'uxtayel.\nIlbon jch'ulel, ac'bon jmajtan,\nJcoltaywanej cu'un.\nAc'bon quilbat a xojobil,\njich me ya jna' te Ach'ul C'op.",
+          
+          "esp": 
+          "De tus mandatos tengo sed,\nreclamo yo tu amor,\nmi alma ve y ten merced\nde mí, buen Salvador;\ntu luz divina hazme ver\ny tus mandatos conocer.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original": 
+          "Te amandal c'ax t'ujbil,\nsoc te bi a waloj,\nMa spaj te yantic majtanil,\nc'ax jich te bit'il oro;\nTe c'ax bayal yutsilal.",
+          
+          "esp": 
+          "Tu ley es deliciosa\ny tus promesas son\nmás ricas, sí, que todo don,\ny tu palabra hermosa,\nque oro más preciosa.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Ya jc'an te ya xc'ot ta\nco'tan te smelelil Ac'op,\nYa jc'an te ya jnabat aba\nta spisil soc co'tan.\nT'ujbil yutsilal Ach'ul C'op,\nxojobajem ta jcuxlejal.",
+          
+          "esp": 
+          "Anhela mi alma conocer\nardiente tu verdad,\ny tus palabras entender\ncon celo y claridad;\ndelicia tu palabra es\ny luz gloriosa de mi ser.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "C'ux ta co'tan Ac'op Jesús,\nya yac'bon sbujts' co'tan,\nSpisil ora ya jt'un Cajwal,\njich me ya ca'ly tsalaw.\nC'ax t'ujbil te Ach'ul C'ope,\nma spaj yantic c'ulejalil.",
+          
+          "esp": 
+          "Tu ley yo amo, oh Jesús,\npues ella goces da;\nconstante sigo yo su luz\ny mi alma vencerá;\nmás gratas tus palabras son\nque todo bien y posesión.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original": 
+          "Jichon te bit'il chijetic,\nte ch'ayemic ta be,\nJa'at ya atojteson ta be,\njich ya xc'oon ta atojol,\nAc'bon quilbat te Ach'ul C'op,\nya me jch'uunbat te amandal.",
+          
+          "esp": 
+          "Tu siervo cual oveja es,\nsus sendas al errar;\nespero yo que a mi alma des\nla senda del hogar;\ntus estatutos hazme ver,\nte quiero obedecer.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "17": {
+    "titulo": {
+      "Tze": "Te ch'ulchan ya yich'at ta muc'",
+      "esp": "Los cielos cantan tu loor",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Chican ta na'el yu'unic te bit'il ay te Diose. Ro. 1:19",
+      "esp": "Lo que de Dios se conoce les es manifiesto, pues Dios se lo manifestó. Ro. 1.19",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Te ch'ulchan ya yich'at ta muc',\nta eq'uetic chican awu'el.\nYan te Ach'ul June Cajwal,\nya yac' ta na'el te A'biil.",
+          
+          "esp": 
+          "Los cielos cantan tu loor,\nlos astros muestran tu poder,\nmas en tu libro es, oh Señor,\ndonde tu nombre es dado ver.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Te c'aal, atsacoj ta ac'ab,\nte c'aal, ajc'ubal, ay yawil.\nYa awac' aba ta na'el,\nta banti te Ach'ul C'ope.",
+          
+          "esp": 
+          "Tu sabia mano guía al sol\ny a noche y día da lugar;\naún más fiel revelación\nen tu palabra se hallará.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original":
+          "Spisil ora ya xc'ajinic,\nta spisil bitic apasoj.\nTe stojil yutsilal Ac'op,\nya xojobaj ta co'tantic.",
+          
+          "esp": 
+          "En alabanzas sin cesar\nprorrumpe a una la creación,\ny tu justicia y tu verdad\nfulgura en limpio corazón.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original":
+          "Ya me yil spisil al-nich'an\nte yutsilal te awu'el.\nTa spamal te balumilal,\nyich'oj bendición awu'un.",
+          
+          "esp": 
+          "Hasta que pueda el mundo ver,\nbajo la gloria de tu faz,\na Cristo dando por doquier\nsu bendición, su amor, su paz.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "18": {
+    "titulo": {
+      "Tze": "Ay yutsilal, ay yutsilal",
+      "esp": "Viene a nosotros la vida",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Albeya yaiyic te bit'il ay sc'oplal in yach'il cuxlejal to. Hch. 5:20",
+      "esp": "Anunciad al pueblo todas las palabras de esta vida. Hch. 5.20",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "coro",
+        "texto": {
+          "original":
+          "Ay yutsilal, ay yutsilal,\nja'me te j'ac' cuxlejale.\nAy yutsilal, ay yutsilal,\nja' te j'ac' lamal q'uinal.",
+          
+          "esp": 
+          "¡Aleluya, aleluya!\nViene a nosotros la vida.\n¡Aleluya, aleluya!\nViene a nosotros la paz.",
+          
+          "eng": "Chorus English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original":
+          "Ay awutsil Cajwal Cristo,\nta swenta yutsil Ac'op.\nTe Ac'op Cajwal stojil ay,\nja' la sujtesbon co'tan.\nTe Ach'ul C'op te ts'ibubil,\nlequil mandal awu'un.\nC'ax jich a te bit'il oro,\nc'ax t'ujbil te majtanil",
+          
+          "esp": 
+          "Aleluya a ti, oh Cristo,\npor tu palabra de amor,\ntu ley, Señor, es perfecta,\nque a mi alma convirtió.\nEs la Biblia, libro santo,\nfiel mandamiento de Dios,\nmás que el oro tu precepto\nes el tan preciado don.",
+          
+          "eng": "Chorus English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original":
+          "Ay yutsilal te awa'tel,\nsoc ta bay jtsoboj jbajtic\nTe Ac'op ya yac' cuxlejal,\nja' ya yac' beenucotic.\nJun co'tan ya xc'oon tey a,\nta ba ay lamal q'uinal.\nJa' ya stijon te Ac'ope,\nay yutsilal, ay yutsilal.",
+          
+          "esp": 
+          "Aleluya en el trabajo,\naleluya en la unidad;\ntu palabra nos da vida\ny nos hace caminar,\nluchar por un mundo nuevo,\nlleno de amor y verdad,\ntu palabra nos impulsa.\n¡Aleluya, aleluya!",
+          
+          "eng": "Chorus English..."
+        }
+      }
+    ]
+  },
+  "19": {
+    "titulo": {
+      "Tze": "Soc co'tan ya quich'at ta muc'",
+      "esp": "Con alma y voz te alabaré",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Binax yutsil te mach'atic ya yaiybeyic stojol Sc'op te Diose. Luc. 11:28",
+      "esp": "Bienaventurados los que oyen la palabra de Dios, y la guardan. Lc. 11.28",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Soc co'tan ya quich'at ta muc',\nya calbat yutsil ac'oplal.\nYa quich' ta muc' te awu'el,\nte bit'il ja' smelelilat.\nMelel ay yutsil awo'tan,\nta Ach'ul C'op ay bendición.\nTa Ach'ul C'op ay bendición.",
+          
+          "esp": 
+          "Con alma y voz te alabaré\ny yo tus glorias cantaré;\nadoro yo tu majestad,\nte alabaré por tu verdad;\nverdad y gracia sólo son\nen tu palabra bendición,\nen tu palabra bendición.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "La jc'oponat jich lecubon,\nla yac'bon quip te Ac'ope.\nTe muc' ajwaliletique,\nya yich'at ta muc' spisilic.\nBayal yutsil ya xc'ajinic,\nta yalel yutsil te colel,\nTa yalel yutsil te colel.",
+          
+          "esp": 
+          "Clamé a ti por mi salud,\nme dio tu ley poder, virtud;\nlos reyes prez a ti darán,\npues tu palabra escucharán,\ny cantarán con dulce son\nlas glorias de tu salvación,\nlas glorias de tu salvación.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "20": {
+    "titulo": {
+      "Tze": "T'ujbil sc'oplal ta alel",
+      "esp": "Grato es contar la historia",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "La'ic ya calbeyex awa'iyic te bila spasoj-bon ta jwenta te Diose. Sal. 66:16",
+      "esp": "Venid, y contaré lo que ha hecho a mi alma. Sal. 66.16",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "T'ujbil sc'oplal ta alel,\nte xc'uxul yo'tan Dios.\nTe Cristo ay yutsilal,\nsoc ay xc'uxul yo tan.\nYa jmulan yalel sc'oplal,\nmelel ja' smelelil.\nJa'nax ta swenta te Dios,\nte ya jta sbujts' q'uinal.",
+          
+          "esp": 
+          "Grato es contar la historia\ndel celestial favor,\nde Cristo y de su gloria,\nde Cristo y de su amor.\nMe agrada referirla,\npues sé que es la verdad;\ny nada satisface\ncual ella mi ansiedad.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original": 
+          "C'ax t'ujbil te sc'oplale,\njich ya cal ta utsilal.\nYa me jtoyes ta alel,\nxc'uxul yo tan Cristo.",
+          
+          "esp": 
+          "¡Cuán bella es esta historia!\nMi tema allá en la gloria\nserá ensalzar la historia\nde Cristo y de su amor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "T'ujbil sc'oplal ta alel,\nc'ax t'ujbil ta aiyel.\nAy yutsilal xojobil,\njich te bit'il jna'oj,\nYa me cal spisil ora,\nay ma ba yaiyojic,\nTe Cristo lajem ta cruz,\njich ya staic colel.",
+          
+          "esp": 
+          "Grato es contar la historia\nmás bella que escuché,\nmás áurea, más hermosa\nque cuanto yo soñé.\nContarla siempre anhelo,\npues hay quien nunca oyó\nque, para hacerle salvo,\nCristo en la cruz murió.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "T'ujbil sc'oplal ta alel,\nc'ax bayal yutsilal,\nTe c'alal ya calulay,\nc'ax t'ujbil ta alel.\nTe bila c'oem ta pasel,\nja' me ya jc'ajintay,\nMelel ja' Xch'ul C'op te Dios,\nte ay colel yu'un.",
+          
+          "esp": 
+          "Grato es contar la historia\nque placentera es,\ny es más al repetirla,\npreciosa cada vez.\nLa historia, pues, que canto,\noíd con atención,\nporque es mensaje santo\nde eterna salvación.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original": 
+          "T'ujbil sc'oplal ta alel,\nma' yuc bi ya xpajot,\nTe c'alal ya yich' a'iyel,\nya xpujc xc'uxul yo tan.\nC'alal ta bay utsilal,\nya jc'ajintay c'ayoj,\nTe bila caiyoj stojol,\nc'ux ya caiy ta co'tan.",
+          
+          "esp": 
+          "Grato es contar la historia,\nde todas la mejor,\nque cuanto más se escucha,\ninfunde más amor.\nY cuando allá en la gloria\nentone mi cantar,\nserá la misma historia\nque tanto supe amar.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "21": {
+    "titulo": {
+      "Tze": "Cajwal ya jq'uej ta co'tan te Ac'ope",
+      "esp": "Yo anhelo, Jesús, tu palabra guardar",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Jnopojix ta co'tan te ya ca'telin spasel te mandaliletic aww'une. Sal. 119:112.",
+      "esp": "Mi corazón incliné a cumplir tus estatutos. Sal. 119.112",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Cajwal ya jq'uej ta co'tan te Ac'ope,\nYa xojobaj cacan ta beel yu'un.\nJa' tilem xojobil ta balumilal;\nC'ax jich bit'il oro, c'ax jich bit'il chab.",
+          
+          "esp": 
+          "Yo anhelo, Jesús, tu palabra guardar,\npues lámpara es que ilumina mi pie,\nlumbrera que alumbra en la vía terrenal;\nmás fina que el oro, más dulce que miel.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original": 
+          "Coltayawon Cajwal, ya jq'uej ta co tan,\nTe Ch'ul mandaliletic awu'une;\nJich me lec ya xbeenon ta atojol a,\nJich me bujts'an q'uinal ya caiy awu'un.",
+          
+          "esp": 
+          "Ayúdame, oh Cristo, por siempre a guardar\ntus santos mandatos con fidelidad;\nasí mi camino más limpio será,\npues tus testimonios dichoso me harán.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Teme ya yic'on ta beel te Ac'ope,\nJich tsalbil yu'el ya xc'ot te pucuje.\nMelel tilem ta co'tan te Ac'ope,\nBayal yutsil te mandaliletique.",
+          
+          "esp": 
+          "Si ordeno mis pasos conforme a tu ley,\nSatán a mis plantas vencido será;\nsi tú me iluminas, podré comprender\nlas mil maravillas que encierra tu ley.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "22": {
+    "titulo": {
+      "Tze": "Ta stojol Jtatic Dios",
+      "esp": "A nuestro Padre Dios",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "La squejan sbaic ta stojol, te mach'a stalel cuxul sbajtel g'uinale. Ap. 5:14",
+      "esp": "Se postraron sobre sus rostros y adoraron al que vive por los siglos. Ap. 5.14",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Ta stojol Jtatic Dios,\nya me xc'ajinotic,\n¡Ay yutsilal!\nJich la yac'botic\nte Xch'ul Nich'an te laje,\nJa' me smuc'ul\nco'tan jay yutsilal!",
+          
+          "esp": 
+          "A nuestro Padre Dios\nalcemos nuestra voz,\n¡gloria a él!\nTal fue su amor que dio\nal Hijo que murió,\nen quien confío yo,\n¡gloria a él!",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Ja' te Jcoltaywanej,\nac'a quich'tic ta muc',\n jAy yutsilal!\nLa smal te xch'ul ch'ich'el,\nja' me la spocon a,\nJa' la sjambon ch'ulchan,\n¡Ay yutsilal!",
+          
+          "esp": 
+          "A nuestro Salvador\ndemos con fe loor,\n¡gloria a él!\nSu sangre derramó;\ncon ella me lavó\ny el cielo me abrió,\n¡gloria a él!",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Ja' me ya jc'ajintay,\nte Ch'ul Espíritu,\n¡Ay awutsil!\nAy yutsil awu'el,\nawac'oj ta ilel,\nTa swenta te Cristo,\n¡Ay awutsil!",
+          
+          "esp": 
+          "Espíritu de Dios,\nelevo a ti mi voz,\n¡gloria a ti!\nCon celestial fulgor\nme muestras el amor\nde Cristo, mi Señor,\n¡gloria a ti!",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original": 
+          "Ayuc sbujts' co'tantic,\nya me jc'ajintaytic,\nte Ch'ul Diose.\nCuxul sbajtel q'uinal\nsoc ma'yuc slajibal,\nYa me quich'tic ta muc'\nte Ch'ul Diose.",
+          
+          "esp": 
+          "Con gozo y amor\ncantemos con fervor\nal trino Dios.\nEn la eternidad\nmora la Trinidad;\n¡por siempre alabad\nal trino Dios!",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "23": {
+    "titulo": {
+      "Tze": "Ya quich'tic ta muc'",
+      "esp": "Te loamos, oh Dios",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Albeyaic yutsilal Sbiil. Sal. 29:2",
+      "esp": "Dad a Jehová la gloria debida a su nombre. Sal. 29.2",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Ya quich'tic ta muc',\nja' te Itatic Diose,\nSwenta Cristo, te nich'an,\nla tajtic perdón.",
+          
+          "esp":
+          "Te loamos, oh Dios,\nnuestro Padre de amor,\npues en Cristo, tu Hijo,\nnos diste perdón.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original": 
+          "Ay yutsilal, ya jc'ajintay,\nay xc'uxul te yo'tan.\nAy yutsilal, ya jc'ajintay,\nte Cuxul Diose.",
+          
+          "esp":
+          "Aleluya, te alabamos,\noh, cuán grande es tu amor.\nAleluya, te adoramos,\nbendito Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Ya quich'tic ta muc'\nte Cajwaltic Jesús.\nLa yijquitay yutsilal,\nlaj ta banti cruz",
+          
+          "esp":
+          "Te loamos, Jesús,\npues tu trono de luz\ntú dejaste por darnos\nsalud en la cruz.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Ya quich'tic ta muc'\nte Ch'ul Espiritu,\nYa yac'botic sbujts' q'uinal,\nsoc yip co'tantic.",
+          
+          "esp":
+          "Te damos loor,\nSanto Consolador,\nque nos llenas de gozo\ny santo valor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original": 
+          "La' quich'tic ta muc',\nja' te Cuxul Diose,\nJa'nax ay yutsil yo'tan,\nsoc ja' smelelil.",
+          
+          "esp":
+          "Unidos load\na la gran Trinidad,\nque es la fuente de gracia,\npoder y verdad.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "24": {
+    "titulo": {
+      "Tze": "Te Ch'ul Dios, ja' muc' Ajwalil",
+      "esp": "Al Rey de los reyes",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Ja' me ya s'ochix ta muc' Ajwalil a te Cajwaltic ta spamal balumilal. Zac. 14:9",
+      "esp": "Y Jehová será rey sobre toda la tierra. Zac. 14.9",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Te Ch'ul Dios, ja' muc'\nAjwalil, c'ax muc' sc'oplal,\nYa me quich'tic ta muc'\nta banti ch'ul tsoblej.\nYa jinan jbajtic ta stojol,\ntalucotic,\nYu'un yich'el ta muc',\nsoc spisil co'tantic.",
+          
+          "esp": 
+          "Al rey de los reyes,\nJehová, el glorioso,\ncantemos con gozo\nen santa comunión;\ncon gran reverencia\na él nos lleguemos,\nsu nombre ensalcemos\nde todo corazón.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "coro",
+        "texto": {
+          "original": 
+          "Lamal q'uinal soc\nay sbujts' co'tan,\nJa'nax ta swenta yutsil\nyo'tan te la scoltayon.\nJa' ya jc'an te\nya jpasbey ya'tel,\nSoc ja' sc'anjel yo'tan\nte ya xcuxinon ta stojol.\nC'ax t'ujbil, ay me yutsilal,\nja' ya yac'bon te sbujts' co'tan.\nTe Jesús la yac'bon quil\nte bit'il ta t'unel te be.\nC'alal ta bay utsilal,\nc'alal ta slajibal,\nYa me xc'o jc'ajintaytic\nte Jcoltaywaneje.",
+          
+          "esp": 
+          "Gozo y paz\nhay en mi corazón,\nsu gracia me salvó\ny aseguró mi salvación.\nEs mi anhelo\na mi Señor servir,\nsu voluntad cumplir\ny para él siempre vivir.\nOh, tan dulce esperanza\nnos alienta para seguir\nla senda que el Maestro\nnos marcó con su ejemplo aquí.\nAllá en lontananza,\nal fin de la labor,\ndaremos alabanza\na nuestro Salvador.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Te Ch'ul Dios ja' muc'\nAjwalil, te jc'uxtaywanej,\nItsalwanej,\nya xcha' tal ta balumilal.\nTe yal-snich'an,\nsoc te lum yu'une,\nYa xbujts'naj yo'tanic\nyu'un te t'ujbil c'ayoje.",
+          
+          "esp": 
+          "Al Rey de los reyes,\nJesús, el amante,\nsublime y triunfante\nal mundo volverá;\ncon todos sus santos,\ncon alegres cantos,\nsu iglesia anhelante\na él se unirá.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Te Espiritu yu'un Dios,\nya me stojteson ta yalel wocol.\nAiybon stojol Cajwal,\nja' te lum awu'un ya me yich'at ta muc'\nYa me acusbey ya'lel sit,\nja'at Cajwal.",
+          
+          "esp": 
+          "Espíritu eterno\nde Dios, guía santa,\na nuestra plegaria\natiende, oh Señor;\ntu pueblo te adora,\ntambién hoy te canta,\nenjuga tu llanto,\noh gran Consolador.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original": 
+          "Te Dios bayal sp'ijil\nsoc te c'ax bayal yip,\nQuejana me abaic,\nich'aic me ta muc'\nSpisil bila apasoj,\nya cal wocol yu'un,\nYa jpasbat awa'tel,\nte ja'at Ch'ul Diosat.",
+          
+          "esp": 
+          "Al Dios solo sabio\ny omnipotente,\nden todos reverentes,\nhonor y majestad;\npor tus beneficios,\nrecibe propicio\nmi humilde servicio,\ndivina Trinidad.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "25": {
+    "titulo": {
+      "Tze": "Ch'ul Dios, Ch'ul Dios",
+      "esp": "Santo, santo",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Jtoytic moel co'tantic soc jc'abtic ta stojol Dios te ay ta ch'ulchane. Lm. 3:41",
+      "esp": "Levantemos nuestros corazones y manos a Dios en los cielos. Lm. 3.41",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Ch'ul Dios, Ch'ul Dios, Ch'ul Dios, Ch'ul Dios,\nCh'ul Dios, Ch'ul Dios, Dios te bayal yip.\nYa jtoy jc'abtic ta swenta señail ta yalel wocol.\nCh'ul Dios, Ch'ul Dios, Ch'ul Dios, Ch'ul Dios.",
+          
+          "esp": 
+          "Santo, santo, santo, santo,\nsanto, santo Dios poderoso;\nlevantemos nuestras manos\nen señal de gratitud.\nSanto, santo, santo, santo.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Ch'ul Dios Tatil, Ch'ul Dios Tatil,\nYa cal wocol te al-nich'anone.\nYa jtoy jc'abtic ta swenta señail ta yalel wocol.\nCh'ul Dios Tatil, Ch'ul Dios Tatil.",
+          
+          "esp": 
+          "Santo Padre, santo Padre,\nte damos gracias por ser tus hijos;\nlevantemos nuestras manos\nen señal de gratitud.\nSanto Padre, santo Padre.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Ch'ul Nich'anil, Jesucristo,\nYa cal wocol te la acoltayone.\nYa jtoy jc'abtic ta swenta\nseñail ta yalel wocol.\nCh'ul Nich'anil, Jesucristo.",
+          
+          "esp": 
+          "Santo Hijo, Jesucristo,\nte damos gracias por redimirnos;\nlevantemos nuestras manos\nen señal de gratitud.\nSanto Hijo, Jesucristo.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original": 
+          "Ch'ul Espíritu, Ch'ul Espíritu,\nLectesawon ta ach'ul tojol.\nYa jtoy jc'abtic ta swenta\nseñail ta yalel wocol.\nCh'ul Espíritu, Ch'ul Espíritu.",
+          
+          "esp": 
+          "Santo Espíritu, Santo Espíritu,\nlimpia y llénanos de tu presencia;\nlevantemos nuestras manos\nen señal de gratitud.\nSanto Espíritu, Santo Espíritu.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 5,
+        "texto": {
+          "original": 
+          "Ay yutsilal, ay yutsilal,\nAy yutsilal, bayal yutsilal.\nYa jtoy jc'abtic ta swenta\nseñail ta yalel wocol.\nAy yutsilal, ay yutsilal.",
+          
+          "esp": 
+          "Aleluya, aleluya,\naleluya, oh aleluya;\nlevantemos nuestras manos\nen señal de gratitud.\nAleluya, aleluya.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "26": {
+    "titulo": {
+      "Tze": "C'ajintayaic Dios",
+      "esp": "Cantad al Señor",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Ic'ajintayaic Dios ta yach'il c'ayoj. Sal. 96:1.",
+      "esp": "Cantad a Jehová cántico nuevo. Sal. 96.1",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "C'ajintayaic Dios,soc ta yach'il c'ayoj.\nC'ajintayaic Dios, spamal balumilal.\nC'ajintayaic Dios, ay yutsil te Xch'ul Bil.\nC'ajintayaic Dios, c'ajintayaic Dios.",
+          
+          "esp": 
+          "Cantad al Señor un cántico nuevo,\ncantad al Señor en toda la tierra;\ncantad al Señor, bendito su nombre.\nCantad al Señor, cantad al Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "C'ajintayaic Dios, ja' Jpaswanej cu'untic.\nJa' jc'uxtaywanej, ch'ul Dios sbajtel q'uinal.\nLa xc'uxtayotic, la yac' tel xch'ul Nich'an,\nC'ajintayaic Dios, c'ajintayaic Dios.",
+          
+          "esp": 
+          "Cantad al Creador, el dueño de todo,\nal Padre de amor que es santo y eterno;\nal mundo él amó, ha dado a su Hijo.\nCantad al Señor, cantad al Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Cajwaltic Jesús, ja'te Alalchije,\nJa' la stoj jmultic, ja' lequil jcanan-chij,\nSoc muc' Ajwalil, swenta sbajtel q'uinal.\nC'ajintayaic Dios, c'ajintayaic Dios",
+          
+          "esp": 
+          "Cantad a Jesús, el digno Cordero,\nél nos redimió, Pastor amoroso;\nes Cristo, el Rey, por siempre glorioso.\nCantad al Señor, cantad al Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original": 
+          "C'ajintayaic Dios, te Ch'ul Espíritu,\nJa' ya xtojteswan, ja' ya xchajbanotic,\nJmuc'tese q'uinal, ja'ya xch'ultesotic.\nC'ajintayaic Dios, c'ajintayaic Dios.",
+          
+          "esp": 
+          "Cantad al Señor, Espíritu Santo,\nes nuestro guiador, él nos justifica,\nes Consolador, él nos santifica.\nCantad al Señor, cantad al Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 5,
+        "texto": {
+          "original": 
+          "C'ajintayaic Dios, ay bayal yutsilal,\nC'ajintayaic Dios, ay bayal yutsilal,\nC'ajintayaic Dios, ay bayal yutsilal.\nC'ajintayaic Dios, c'ajintayaic Dios.",
+          
+          "esp": 
+          "Cantad al Señor: ¡Amén, aleluya!\nCantad al Señor: ¡Amén, aleluya!\nCantad al Señor: ¡Amén, aleluya!\nCantad al Señor, cantad al Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "27": {
+    "titulo": {
+      "Tze": "Ja'at Jtatic Dios",
+      "esp": "Glorifícate en todo ser",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Spisilic ya yalbeyic yutsil Dios. Hch. 4:21",
+      "esp": "Todos glorificaban a Dios. Hch. 4.21",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Ja'at Jtatic Dios,\nya me quich'ticat ta muc'.\nAc'a ta ilel awutsilal,\nac'a ta ilel, ac'a ta ilel,\nAc'a ta ilel awutsilal.",
+          
+          "esp": 
+          "Padre, te amamos\ny unidos te adoramos,\nglorifícate en todo ser.\nGlorifícate, glorifícate,\nglorifícate en todo ser.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Cajwaltic Cristo,\nya me quich'ticat ta muc'.\nAc'a ta ilel awutsilal,\nac'a ta ilel, ac'a ta ilel,\nAc'a ta ilel awutsilal.",
+          
+          "esp": 
+          "Cristo, te amamos\ny unidos te adoramos,\nglorifícate en todo ser.\nGlorifícate, glorifícate,\nglorifícate en todo ser.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Ch'ul Espíritu,\nya me quich'ticat ta muc'.\nAc'a ta ilel awutsilal,\nac'a ta ilel, ac'a ta ilel,\nAc'a ta ilel awutsilal.",
+          
+          "esp": 
+          "Santo Espíritu,\nunidos te adoramos,\nglorifícate en todo ser.\nGlorifícate, glorifícate,\nglorifícate en todo ser.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "28": {
+    "titulo": {
+      "Tze": "Ya jc'ajintay te Jtatic Dios",
+      "esp": "¡Santa, bendita Trinidad!",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Te Dios cu'un ya jc'ajintay te bit'il cuxulontoe. Sal. 104:33.",
+      "esp": "A mi Dios cantaré salmos mientras viva. Sal. 104.33",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+      {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Ya jc'ajintay te Jtatic Dios,\nCajwalja' Jcoltaywanejat.\nYa me jc'ajintayat, soc smuc'ulat co'tan.\nAy yutsilal te Jpaswanej.",
+          
+          "esp": 
+          "Canto a mi Padre celestial,\na ti, mi Dios y Redentor,\ndoy alabanzas; tú mi esperanza,\ngloria al eterno Creador.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Ya jc'ajintay Jcoltaywanej,\nJa' me te Dios sjoinejotic.\nTa swenta te bit'il laj,\nla sjelbon jcuxlejal.\nAy yutsilal Jcoltaywanej.",
+          
+          "esp": 
+          "Canto a Jesús, mi Salvador,\nal verbo eterno, Emanuel;\nél con su muerte cambió mi suerte,\ngloria al excelso Redentor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Espíritu yu'un te Dios,\nya atojteson ta cuxinel.\nJa'at ya ach'ulteson, ya alecubteson.\nA'joinejon, ya acoltayon.",
+          
+          "esp": 
+          "¡Oh, Santo Espíritu de Dios!\ntú eres el guía en mi vivir;\nme santificas, me purificas,\nvives en mí, Consolador.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original": 
+          "Ch'ul Dios, Ch'ul Dios, ja' Ch'ul Diosat.\nY a jc'an cac'bat te jcuxlejal,\nya me jc'ajintayat. Ya calbat ac'oplal,\nay yutsilal sbajtel q'uinal.",
+          
+          "esp": 
+          "¡Santa, bendita Trinidad!\nA ti mi vida quiero dar;\ngloria cantemos y proclamemos\nglorias eternas al Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "29": {
+    "titulo": {
+      "Tze": "Ja'at Ch'ul Dios ay awu'el",
+      "esp": "Ven, oh Todopoderoso",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Ayutsilal, te Dios te spisil ya xju' yu'une, ja' muc' ajwalil. Ap. 19:6",
+      "esp": "¡Aleluya, porque el Señor nuestro Dios Todopoderoso reina! Ap. 19.6",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+            {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Ja'at Ch'ul Dios ay awu'el,\nte ja'at Jpaswanejat;\nJa' Ch'ul Diosat, lec awo'tan,\nchicnajuc xan ta ilel.\nMuc' Ajwalil lec awo'tan,\nya jtoy jc'op ta atojol.\nYa jc'antic joinel awu'un,\nja' Itaticat, Ch'ul Diosat.",
+          
+          "esp": 
+          "Ven, oh Todopoderoso,\nadorable Creador;\nPadre santo, cariñoso,\nmanifiesta tu amor.\nA tu trono de clemencia\nlevantamos nuestra voz,\ntu presencia te pedimos,\nnuestro Padre, nuestro Dios.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Ja'at Cajwal Icoltaywanej,\nja'at nax J'ac'colelat,\nOchan nainan ta jtojoltic,\nsoc ainan ta co'tantic.\nCajwal Jesús lec awo'tan,\nta swenta sbajtel q'uinal.\nWocoluc aiybotic jc'optic,\nsoc ac'botic bendición.",
+          
+          "esp": 
+          "Ven, oh Salvador divino,\nDios de nuestra salvación;\nen nosotros haz morada,\nvive en nuestro corazón.\nEres tú, Jesús, benigno,\neres infinito amor,\nóyenos, te suplicamos\ny bendícenos, Señor.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Ch'ul Espíritu yu'un Dios,\nac'botic te majtanil.\nDios, ac'botic lamal q'uinal,\nta bay te co'tantique.\nAc'botic te bi awaloj,\nja'te ac'ulejale.\nAy yutsilal ta jtojoltic,\nte cuxinel ta ch'ulchan.",
+          
+          "esp": 
+          "Ven, Espíritu divino,\ndanos tu precioso don;\nDios Consolador, inspira\npaz en todo corazón.\nDe los santos la herencia,\ndéjanos hallar en ti\ny la vida de los cielos\ngozaremos ya aquí.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  },
+  "30": {
+    "titulo": {
+      "Tze": "Ja' Diosat soc Cajwalat",
+      "esp": "Sólo a ti, Dios y Señor",
+      "eng": "To God be the glory"
+    },
+    "versiculo": {
+      "Tze": "Ja'nax me xa wich' ta muc' te Diose, ja'nax me xa wac' aba ta abatinel ta stojol. Mt. 4:10.",
+      "esp": "Al Señor tu Dios adorarás, y a él sólo servirás. Mt. 4.10",
+      "eng": "To God be the glory"
+    },
+    "partes": [
+            {
+        "tipo": "estrofa",
+        "numero": 1,
+        "texto": {
+          "original": 
+          "Ja' Diosat soc Cajwalat,\nya q'uich'at ta muc' ya jch'uunat.\nJa' te a wich'el ta muc',\nya cac'bat Cajwal soc co tan.\nTe Cristo ja' luz cu'untic,\ntalucotic me ta stojol.\nTa swenta te laj ta cruz,\ncha' cuxotic, cha' cuxotic.",
+          
+          "esp": 
+          "Sólo a ti, Dios y Señor,\nadoramos, adoramos,\ny la gloria y el honor\ntributamos, tributamos;\nsólo a Cristo, nuestra luz,\nacudimos, acudimos,\npor su muerte en la cruz\nrevivimos, revivimos.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 2,
+        "texto": {
+          "original": 
+          "Jun nax Ch'ul Espíritu,\nscanantayejon sjoinejon.\nTa swenta te Anich'an,\nlamal q'uinal sbajt' el q'uinal.\nJa' c'ajc' te cuxul Diose,\ntilem xojobil te yu'el.\nTilem ta bay jtojoltic,\njich bit'il ch'ul abatetic.",
+          
+          "esp": 
+          "Un Espíritu, no más,\nnos gobierna, nos gobierna,\ny con él, Señor, nos das\npaz eterna, paz eterna;\nél es fuego celestial,\ncuya llama, cuya llama\nen amor angelical\nnos inflama, nos inflama.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+            {
+        "tipo": "estrofa",
+        "numero": 3,
+        "texto": {
+          "original": 
+          "Ja' te xc'uxul awo'tan,\nya caiy bey te yutsilale.\nTe Jesús jc'uxtaywanej,\nspisil ora, spisil ora.\nJa' nax la scoltayotic,\nta bay te lajel, ta lajel,\nJa' la yaq'uix ta ilel,\nte ja'nax ay yu'el stuquel.",
+          
+          "esp": 
+          "Disfrutamos tu favor\nsolamente, solamente\npor Jesús, fuente de amor\npermanente, permanente;\nsólo él nos libertó\nde la muerte, de la muerte,\nsólo él se declaró\nnuestro fuerte, nuestro fuerte.",
+          
+          "eng": "Verse 1 English..."
+        }
+      },
+      {
+        "tipo": "estrofa",
+        "numero": 4,
+        "texto": {
+          "original": 
+          "Ja'at nax paswanejat,\nte Ch'ul Diosat sbajt'el q'uinal.\nLa acoltayon ta lajel,\nma la awac'on bael ta ch'ayel.\nJa' yu'un ay sbuts' co'tan,\nya calbat te Ach'ul C'ope.\nJa'nax ta yip awu'el,\nte jch'uunejat, te jch'uunejat.",
+          
+          "esp": 
+          "Sólo tú, oh Creador,\nDios eterno, Dios eterno,\nnos libraste del furor\ndel infierno, del infierno\ny por esto con placer\nproclamamos, proclamamos\nque sólo en tu gran poder\nconfiamos, confiamos.",
+          
+          "eng": "Verse 1 English..."
+        }
+      }
+    ]
+  }
+}
