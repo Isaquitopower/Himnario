@@ -1,0 +1,187 @@
+import { StyleSheet } from 'react-native';
+import { ThemeColors } from '@/hooks/useThemeColor';
+
+export const createIdStyles = (colors: ThemeColors) =>
+  StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: colors.background,
+      paddingBottom: 20,
+    },
+
+    header: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      paddingTop: 50,
+      paddingHorizontal: 20,
+      paddingBottom: 20,
+      backgroundColor: colors.headerBackground,
+      shadowColor: colors.text,
+      shadowOpacity: 0.1,
+      shadowOffset: { width: 0, height: 4 },
+      shadowRadius: 6,
+      elevation: 6,
+    },
+    headerRight: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+
+    content: {
+      flex: 1,
+      paddingHorizontal: 20,
+      marginBottom: 80,
+    },
+
+    himnoTitle: {
+      color: colors.text,
+      fontSize: 24,
+      fontWeight: 'bold',
+      marginBottom: 20,
+      textAlign: 'center',
+      lineHeight: 30,
+    },
+    translationTitle: {
+      color: colors.textSecondary,
+      fontSize: 16,
+      fontStyle: 'italic',
+      marginBottom: 20,
+      textAlign: 'center',
+    },
+
+    estrofaContainer: {
+      flexDirection: 'row',
+      marginBottom: 25,
+    },
+    estrofaTexto: {
+      color: colors.text,
+      fontSize: 16,
+      lineHeight: 24,
+      textAlign: 'center',
+      flex: 1,
+      fontWeight: 'bold', // ✅ añadido
+    },
+    coroContainer: {
+      backgroundColor: colors.inputBackground,
+      padding: 15,
+      borderRadius: 10,
+      marginVertical: 20,
+      shadowColor: colors.text,
+      shadowOpacity: 0.05,
+      shadowOffset: { width: 0, height: 3 },
+      shadowRadius: 5,
+      elevation: 5,
+    },
+    coroLabel: {
+      color: colors.accent,
+      fontSize: 16,
+      fontWeight: 'bold',
+      marginBottom: 10,
+      textAlign: 'center',
+    },
+    coroTexto: {
+      color: colors.text,
+      fontSize: 16,
+      lineHeight: 24,
+      textAlign: 'center',
+      fontWeight: 'bold', // ✅ añadido
+    },
+    segcoroContainer: {
+      backgroundColor: colors.inputBackground,
+      padding: 15,
+      borderRadius: 10,
+      marginVertical: 20,
+      shadowColor: colors.text,
+      shadowOpacity: 0.05,
+      shadowOffset: { width: 0, height: 3 },
+      shadowRadius: 5,
+      elevation: 5,
+    },
+    segcoroLabel: {
+      color: colors.accent,
+      fontSize: 16,
+      fontWeight: 'bold',
+      marginBottom: 10,
+      textAlign: 'center',
+    },
+    segcoroTexto: {
+      color: colors.text,
+      fontSize: 16,
+      lineHeight: 24,
+      textAlign: 'center',
+      fontWeight: 'bold', // ✅ añadido
+    },
+    menuContainer: {
+      position: 'absolute',
+      bottom: 20,
+      right: 20,
+      backgroundColor: colors.inputBackground,
+      borderRadius: 20,
+      padding: 15,
+      flexDirection: 'row',
+      alignItems: 'center',
+      gap: 15,
+      shadowColor: colors.text,
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.2,
+      shadowRadius: 5,
+      elevation: 6,
+    },
+    menuText: {
+      color: colors.text,
+      fontSize: 16,
+      fontWeight: 'bold',
+    },
+    activeLanguage: {
+      color: colors.accent,
+    },
+    menuButton: {
+      position: 'absolute',
+      bottom: 20,
+      right: 20,
+      backgroundColor: colors.inputBackground,
+      width: 50,
+      height: 50,
+      borderRadius: 25,
+      justifyContent: 'center',
+      alignItems: 'center',
+      shadowColor: colors.text,
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.2,
+      shadowRadius: 5,
+      elevation: 6,
+    },
+
+    versiculo: {
+      color: colors.textSecondary,
+      fontSize: 14,
+      fontStyle: 'italic',
+      marginBottom: 30,
+      lineHeight: 20,
+      textAlign: 'center',
+    },
+    nextHimnoContainer: {
+      marginTop: 30,
+      marginBottom: 50,
+      padding: 15,
+      backgroundColor: colors.inputBackground,
+      borderRadius: 8,
+      shadowColor: colors.text,
+      shadowOpacity: 0.05,
+      shadowOffset: { width: 0, height: 3 },
+      shadowRadius: 4,
+      elevation: 4,
+    },
+    nextHimnoText: {
+      color: colors.textSecondary,
+      fontSize: 16,
+      textAlign: 'center',
+    },
+    divider: {
+      height: 2,
+      width: '100%',
+      marginVertical: 10,
+      backgroundColor: colors.text,
+    },
+  });

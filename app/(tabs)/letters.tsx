@@ -2,95 +2,118 @@ import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, FlatList, StatusBar, TextInput } from 'react-native';
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
-import { lettersStyles as styles } from './styles/lettersStyles';
+
 import himnosList from '@/assets/data/himnosList.json';
+import { useThemeContext } from '@/theme/ThemeContext';
+import { useThemeColors } from '@/hooks/useThemeColor';
+import { createLettersStyles } from '@/app/styles/lettersStyles';
 
 export default function LettersScreen() {
-  const [selectedLetter, setSelectedLetter] = useState('A');
   const [searchText, setSearchText] = useState('');
-  const [language, setLanguage] = useState<'TZE' | 'ESP' | 'ENG' | 'GLOBAL'>('GLOBAL');
+  const [language, setLanguage] = useState<'TZELTAL' | 'ESPAÑOL' | 'INGLES' | 'GLOBAL'>('GLOBAL');
   const [showLanguageMenu, setShowLanguageMenu] = useState(false);
   const router = useRouter();
 
-  // Organizar himnos por letra inicial
-  const himnosPorLetra = himnosList.reduce((acc, himno) => {
-    // Determinar el título a mostrar según el idioma seleccionado
+  // Tema
+  const { theme } = useThemeContext();
+  const { colors } = useThemeColors(theme);
+  const styles = createLettersStyles(colors);
+
+  // Función para normalizar texto
+  const normalizar = (texto: string): string => {
+    return texto
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')   // quita acentos
+      .replace(/[^a-zA-Z0-9\s]/g, '')    // quita signos
+      .toLowerCase();
+  };
+
+  // Filtrar himnos
+const filteredHimnos = himnosList
+  .filter((himno) => {
+    const tze = himno.titulo?.Tze || '';
+    const esp = himno.titulo?.esp || '';
+    const eng = himno.titulo?.eng || '';
+    const numero = himno.numero.toString();
+
     let titulo = '';
-    if (language === 'TZE') titulo = himno.titulo.Tze;
-    else if (language === 'ESP') titulo = himno.titulo.esp;
-    else if (language === 'ENG') titulo = himno.titulo.eng;
-    else titulo = `${himno.titulo.Tze} / ${himno.titulo.esp} / ${himno.titulo.eng}`;
+    if (language === 'TZELTAL') titulo = tze;
+    else if (language === 'ESPAÑOL') titulo = esp;
+    else if (language === 'INGLES') titulo = eng;
+    else titulo = `${tze} / ${esp} / ${eng}`;
 
-    const letraInicial = titulo.charAt(0).toUpperCase();
-    
-    if (!acc[letraInicial]) {
-      acc[letraInicial] = [];
-    }
-    
-    acc[letraInicial].push({
-      id: himno.id,
-      numero: himno.numero,
-      titulo: titulo
-    });
-    
-    return acc;
-  }, {} as Record<string, Array<{id: number, numero: number, titulo: string}>>);
+    const tituloNormalizado = normalizar(titulo);
+    const busquedaNormalizada = normalizar(searchText);
+    const numeroIncluye = numero.includes(searchText);
 
-  const letters = Object.keys(himnosPorLetra).sort();
-  const filteredHimnos = himnosPorLetra[selectedLetter as keyof typeof himnosPorLetra] || [];
+    return tituloNormalizado.includes(busquedaNormalizada) || numeroIncluye;
+  })
+  .sort((a, b) => {
+    const tituloA =
+      language === 'TZELTAL'
+        ? a.titulo?.Tze
+        : language === 'ESPAÑOL'
+        ? a.titulo?.esp
+        : language === 'INGLES'
+        ? a.titulo?.eng
+        : `${a.titulo?.Tze || ''} / ${a.titulo?.esp || ''} / ${a.titulo?.eng || ''}`;
+
+    const tituloB =
+      language === 'TZELTAL'
+        ? b.titulo?.Tze
+        : language === 'ESPAÑOL'
+        ? b.titulo?.esp
+        : language === 'INGLES'
+        ? b.titulo?.eng
+        : `${b.titulo?.Tze || ''} / ${b.titulo?.esp || ''} / ${b.titulo?.eng || ''}`;
+
+    return tituloA.localeCompare(tituloB, 'es', { sensitivity: 'base' });
+  });
+
 
   const handleHimnoPress = (himno: any) => {
     router.push(`/himno/${himno.numero}`);
   };
 
-  const renderHimnoItem = ({ item }: { item: any }) => (
-    <TouchableOpacity 
-      style={styles.himnoItem}
-      onPress={() => handleHimnoPress(item)}
-    >
-      <Text style={styles.himnoNumber}>{item.numero}.</Text>
-      <Text style={styles.himnoTitle}>{item.titulo}</Text>
-    </TouchableOpacity>
-  );
+  const renderHimnoItem = ({ item }: { item: any }) => {
+    let tituloAMostrar = '';
 
-  const renderLetterButton = (letter: string) => (
-    <TouchableOpacity
-      key={letter}
-      style={[
-        styles.letterButton,
-        selectedLetter === letter && styles.letterButtonActive
-      ]}
-      onPress={() => setSelectedLetter(letter)}
-    >
-      <Text style={[
-        styles.letterText,
-        selectedLetter === letter && styles.letterTextActive
-      ]}>
-        {letter}
-      </Text>
-    </TouchableOpacity>
-  );
+    if (language === 'TZELTAL') tituloAMostrar = item.titulo?.Tze || '';
+    else if (language === 'ESPAÑOL') tituloAMostrar = item.titulo?.esp || '';
+    else if (language === 'INGLES') tituloAMostrar = item.titulo?.eng || '';
+    else tituloAMostrar = `${item.titulo?.Tze || ''} \n${item.titulo?.esp || ''} \n${item.titulo?.eng || ''}`;
+
+    return (
+      <TouchableOpacity style={styles.himnoItem} onPress={() => handleHimnoPress(item)}>
+        <Text style={styles.himnoTitle}>{tituloAMostrar}</Text>
+      </TouchableOpacity>
+    );
+  };
+
 
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="#000" />
-      
+      <StatusBar
+        barStyle={theme === 'dark' ? 'light-content' : 'dark-content'}
+        backgroundColor={colors.headerBackground}
+      />
+
       {/* Header */}
       <View style={styles.header}>
         <View style={styles.headerTop}>
-          <Ionicons name="menu" size={24} color="white" />
+          <Text />
           <Text style={styles.headerTitle}>HIMNARIO</Text>
-          <View style={styles.headerRight} />
+          <Text />
         </View>
       </View>
 
       {/* Search Bar */}
       <View style={styles.searchContainer}>
-        <Ionicons name="search" size={20} color="#999" style={styles.searchIcon} />
+        <Ionicons name="search" size={20} color={colors.textSecondary} style={styles.searchIcon} />
         <TextInput
           style={styles.searchInput}
-          placeholder="Nombre o número del himno..."
-          placeholderTextColor="#999"
+          placeholder="Titulo del himno..."
+          placeholderTextColor={colors.textSecondary}
           value={searchText}
           onChangeText={setSearchText}
         />
@@ -98,84 +121,41 @@ export default function LettersScreen() {
 
       {/* Language Selector */}
       <View style={styles.languageSelector}>
-        <TouchableOpacity 
-          style={styles.languageButton}
-          onPress={() => setShowLanguageMenu(!showLanguageMenu)}
-        >
+        <TouchableOpacity style={styles.languageButton} onPress={() => setShowLanguageMenu(!showLanguageMenu)}>
           <Text style={styles.languageButtonText}>
             {language === 'GLOBAL' ? 'IDIOMA: TODOS' : `IDIOMA: ${language}`}
           </Text>
-          <Ionicons name={showLanguageMenu ? "chevron-up" : "chevron-down"} size={16} color="white" />
+          <Ionicons name={showLanguageMenu ? 'chevron-up' : 'chevron-down'} size={16} color={colors.text} />
         </TouchableOpacity>
 
         {showLanguageMenu && (
           <View style={styles.languageMenu}>
-            <TouchableOpacity 
-              style={[styles.languageOption, language === 'TZE' && styles.languageOptionActive]}
-              onPress={() => {
-                setLanguage('TZE');
-                setShowLanguageMenu(false);
-              }}
-            >
-              <Text style={styles.languageOptionText}>TZELTAL</Text>
-            </TouchableOpacity>
-            <TouchableOpacity 
-              style={[styles.languageOption, language === 'ESP' && styles.languageOptionActive]}
-              onPress={() => {
-                setLanguage('ESP');
-                setShowLanguageMenu(false);
-              }}
-            >
-              <Text style={styles.languageOptionText}>ESPAÑOL</Text>
-            </TouchableOpacity>
-            <TouchableOpacity 
-              style={[styles.languageOption, language === 'ENG' && styles.languageOptionActive]}
-              onPress={() => {
-                setLanguage('ENG');
-                setShowLanguageMenu(false);
-              }}
-            >
-              <Text style={styles.languageOptionText}>INGLÉS</Text>
-            </TouchableOpacity>
-            <TouchableOpacity 
-              style={[styles.languageOption, language === 'GLOBAL' && styles.languageOptionActive]}
-              onPress={() => {
-                setLanguage('GLOBAL');
-                setShowLanguageMenu(false);
-              }}
-            >
-              <Text style={styles.languageOptionText}>TODOS</Text>
-            </TouchableOpacity>
+            {(['TZELTAL', 'ESPAÑOL', 'INGLES', 'GLOBAL'] as const).map((lang) => (
+              <TouchableOpacity
+                key={lang}
+                style={[styles.languageOption, language === lang && styles.languageOptionActive]}
+                onPress={() => {
+                  setLanguage(lang);
+                  setShowLanguageMenu(false);
+                }}
+              >
+                <Text style={styles.languageOptionText}>
+                  {lang === 'TZELTAL' ? 'TZELTAL' : lang === 'ESPAÑOL' ? 'ESPAÑOL' : lang === 'INGLES' ? 'INGLÉS' : 'TODOS'}
+                </Text>
+              </TouchableOpacity>
+            ))}
           </View>
         )}
       </View>
 
-      <View style={styles.content}>
-        {/* Letter Header */}
-        <View style={styles.searchBarContainer}>
-          <View style={styles.searchBar}>
-            <Text style={styles.searchBarText}>{selectedLetter}</Text>
-          </View>
-        </View>
-
-        <View style={styles.mainContent}>
-          {/* Himnos List */}
-          <View style={styles.himnosContainer}>
-            <FlatList
-              data={filteredHimnos}
-              renderItem={renderHimnoItem}
-              keyExtractor={(item) => item.id.toString()}
-              showsVerticalScrollIndicator={false}
-              contentContainerStyle={styles.himnosList}
-            />
-          </View>
-
-          {/* Letters Sidebar */}
-          <View style={styles.lettersSidebar}>
-            {letters.map(letter => renderLetterButton(letter))}
-          </View>
-        </View>
-      </View>
+      {/* Lista de himnos */}
+      <FlatList
+        data={filteredHimnos}
+        renderItem={renderHimnoItem}
+        keyExtractor={(item) => item.id.toString()}
+        contentContainerStyle={{ padding: 16 }}
+        ListEmptyComponent={<Text style={{ color: colors.text }}>No se encontraron himnos.</Text>}
+      />
     </View>
   );
 }

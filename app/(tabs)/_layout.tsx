@@ -1,37 +1,35 @@
-import { Tabs } from "expo-router";
-import React from "react";
-import { Platform } from "react-native";
+import { Tabs } from 'expo-router';
+import { Platform } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
-import { HapticTab } from "@/components/HapticTab";
-import { IconSymbol } from "@/components/ui/IconSymbol";
-import { Ionicons } from "@expo/vector-icons";
-import TabBarBackground from "@/components/ui/TabBarBackground";
-import { Colors } from "@/constants/Colors";
-import { useColorScheme } from "@/hooks/useColorScheme";
+import { useThemeContext } from '@/theme/ThemeContext';
+import { useThemeColors } from '@/hooks/useThemeColor';
+import { HapticTab } from '@/components/HapticTab';
+import TabBarBackground from '@/components/ui/TabBarBackground';
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
+  const { theme } = useThemeContext();
+  const { colors } = useThemeColors(theme);
 
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
-        headerShown: false,
+        tabBarActiveTintColor: colors.accent,
+        tabBarInactiveTintColor: colors.textSecondary,
+        tabBarStyle: {
+          backgroundColor: colors.headerBackground,
+          borderTopColor: colors.border,
+          position: Platform.OS === 'ios' ? 'absolute' : 'relative',
+        },
         tabBarButton: HapticTab,
         tabBarBackground: TabBarBackground,
-        tabBarStyle: Platform.select({
-          ios: {
-            // Use a transparent background on iOS to show the blur effect
-            position: "absolute",
-          },
-          default: {},
-        }),
+        headerShown: false,
       }}
     >
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
+          title: 'Inicio',
           tabBarIcon: ({ color }) => (
             <Ionicons name="home" size={28} color={color} />
           ),
@@ -40,7 +38,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="favorites"
         options={{
-          title: "Favorites",
+          title: 'Favoritos',
           tabBarIcon: ({ color }) => (
             <Ionicons name="star" size={28} color={color} />
           ),
@@ -49,7 +47,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="letters"
         options={{
-          title: "Letters",
+          title: 'Letras',
           tabBarIcon: ({ color }) => (
             <Ionicons name="list" size={28} color={color} />
           ),

@@ -1,44 +1,69 @@
-import { idStyles as styles } from "./idStyles";
-import React, { useState, useEffect } from "react";
-import { View, Text, TouchableOpacity, ScrollView } from "react-native";
+import React, { useState, useEffect, useRef, useCallback } from "react";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  ScrollView,
+  StatusBar,
+  SafeAreaView,
+} from "react-native";
 import { useLocalSearchParams } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useFocusEffect } from "@react-navigation/native";
+
 import himnosData from "@/assets/data/himnos.json";
+import { useThemeContext } from "@/theme/ThemeContext";
+import { useThemeColors } from "@/hooks/useThemeColor";
+import { createIdStyles } from "@/app/styles/idStyles";
+import { useFontSize } from '@/context/FontSizeContext';
+import { useRerenderOnFocus } from "@/hooks/useRerenderOnFocus";
 
 export default function HimnoScreen() {
   const { id } = useLocalSearchParams();
   const [showMenu, setShowMenu] = useState(false);
-  const [fontSize, setFontSize] = useState(16);
+  const { fontSize, increaseFont, decreaseFont, resetFont } = useFontSize();
   const [language, setLanguage] = useState<"original" | "esp" | "eng">("original");
   const [isFav, setIsFav] = useState(false);
   const [showTranslation, setShowTranslation] = useState(false);
 
+  const { theme } = useThemeContext();
+  const { colors } = useThemeColors(theme);
+  const styles = createIdStyles(colors);
+
+  const shouldRenderTitle = useRerenderOnFocus([id]);
+  const scrollRef = useRef<ScrollView>(null);
+
+  useFocusEffect(
+    useCallback(() => {
+      scrollRef.current?.scrollTo({ y: 0, animated: false });
+    }, [id])
+  );
+
   const himno = himnosData[id as keyof typeof himnosData];
 
-  // Cargar estado de favorito al iniciar
   useEffect(() => {
     const loadFavoriteStatus = async () => {
       try {
-        const favorites = await AsyncStorage.getItem('favorite_himnos');
+        const favorites = await AsyncStorage.getItem("favorite_himnos");
         if (favorites) {
           const parsedFavorites = JSON.parse(favorites);
           setIsFav(parsedFavorites.some((f: any) => f.id === Number(id)));
         }
       } catch (error) {
-        console.error('Error loading favorites:', error);
+        console.error("Error loading favorites:", error);
       }
     };
-    
+
     loadFavoriteStatus();
   }, [id]);
 
   const toggleFavorite = async () => {
     try {
-      const favoritesKey = 'favorite_himnos';
+      const favoritesKey = "favorite_himnos";
       const currentFavorites = await AsyncStorage.getItem(favoritesKey);
       let favorites = currentFavorites ? JSON.parse(currentFavorites) : [];
-      
+
       if (isFav) {
         favorites = favorites.filter((f: any) => f.id !== Number(id));
       } else {
@@ -46,149 +71,220 @@ export default function HimnoScreen() {
           id: Number(id),
           numero: Number(id),
           titulo: himno.titulo.Tze,
-          timestamp: Date.now()
+          timestamp: Date.now(),
         });
       }
-      
+
       await AsyncStorage.setItem(favoritesKey, JSON.stringify(favorites));
       setIsFav(!isFav);
     } catch (error) {
-      console.error('Error al guardar favoritos:', error);
+      console.error("Error al guardar favoritos:", error);
     }
   };
 
   if (!himno) {
     return (
       <View style={styles.container}>
-        <Text style={{ color: "white", fontSize: 18, padding: 20 }}>
+        <Text style={{ color: colors.text, fontSize: 18, padding: 20 }}>
           Himno no encontrado.
         </Text>
       </View>
     );
   }
 
-  const renderParte = (parte: any, index: number, lang: "original" | "esp" | "eng") => {
+  const renderParte = (
+    parte: any,
+    index: number,
+    lang: "original" | "esp" | "eng"
+  ) => {
     const texto = lang === "original" ? parte.texto.original : parte.texto[lang];
-    
+
     switch (parte.tipo) {
       case "coro":
         return (
           <View key={`${lang}-coro-${index}`} style={styles.coroContainer}>
-            <Text style={[styles.coroLabel, { fontSize }]}>CORO</Text>
-            <Text style={[styles.coroTexto, { fontSize }]}>{texto}</Text>
+            <Text style={[styles.coroLabel, { fontSize, color: colors.text }]}>
+              CORO
+            </Text>
+            <Text style={[styles.coroTexto, { fontSize, lineHeight: fontSize + 10, color: colors.text }]}>
+              {texto}
+            </Text>
           </View>
         );
       case "segcoro":
         return (
           <View key={`${lang}-segcoro-${index}`} style={styles.coroContainer}>
-            <Text style={[styles.coroLabel, { fontSize }]}>SEGUNDO CORO</Text>
-            <Text style={[styles.coroTexto, { fontSize }]}>{texto}</Text>
+            <Text style={[styles.coroLabel, { fontSize, color: colors.text }]}>
+              SEGUNDO CORO
+            </Text>
+            <Text style={[styles.segcoroTexto, { fontSize, lineHeight: fontSize + 10, color: colors.text }]}>
+              {texto}
+            </Text>
           </View>
         );
       default:
         return (
           <View key={`${lang}-estrofa-${index}`} style={styles.estrofaContainer}>
-            <Text style={[styles.estrofaTexto, { fontSize }]}>{texto}</Text>
+            <Text style={[styles.estrofaTexto, { fontSize, lineHeight: fontSize + 10, color: colors.text }]}>
+              {texto}
+            </Text>
           </View>
         );
     }
   };
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={[styles.container, { backgroundColor: colors.background, flex: 1 }]}>
+      <View style={{ height: 35 }} />
+
       {/* Contenedor principal */}
-      <View style={{flex: 1}}>
+      <View style={{ flex: 1 }}>
         {/* Sección de traducción con scroll */}
         {showTranslation && language !== "original" && (
-          <ScrollView style={{flex: 1}}>
-            <Text style={[styles.himnoTitle, { fontSize: fontSize + 4 }]}>
-              {id}. {himno.titulo[language]}
-            </Text>
-
-            {himno.versiculo && (
-              <Text style={styles.versiculo}>{himno.versiculo[language]}</Text>
+          <ScrollView
+            ref={scrollRef}
+            style={{ flex: 1 }}
+            contentContainerStyle={{paddingBottom: 60 }}
+          >
+            {shouldRenderTitle && (
+              <View>
+                <Text
+                  style={[styles.himnoTitle, { fontSize: fontSize + 4, color: colors.text }]}
+                >
+                  {id}. {himno.titulo[language]}
+                </Text>
+              </View>
             )}
 
-            {himno.partes.map((parte, index) => renderParte(parte, index, language))}
+            {himno.versiculo && (
+              <Text style={[styles.versiculo, { color: colors.textSecondary }]}>
+                {himno.versiculo[language]}
+              </Text>
+            )}
+
+            {himno.partes.map((parte, index) =>
+              renderParte(parte, index, language)
+            )}
           </ScrollView>
         )}
 
-        {/* Línea divisoria FIJA */}
+        {/* Línea divisoria */}
         {showTranslation && language !== "original" && (
-          <View style={{
-            height: 2,
-            backgroundColor: 'white',
-            width: '100%',
-            marginVertical: 10
-          }}/>
+          <View
+            style={{
+              height: 2,
+              backgroundColor: colors.text,
+              width: "100%",
+              marginVertical: 10,
+              opacity: 1,
+            }}
+          />
         )}
 
         {/* Sección original con scroll */}
-        <ScrollView style={{flex: 1}}>
-          <Text style={[styles.himnoTitle, { fontSize: fontSize + 4 }]}>
-            {id}. {himno.titulo.Tze}
-          </Text>
-
-          {himno.versiculo && (
-            <Text style={styles.versiculo}>{himno.versiculo.Tze}</Text>
+        <ScrollView
+          ref={scrollRef}
+          style={{ flex: 1 }}
+          contentContainerStyle={{paddingBottom: 60 }}
+        >
+          {shouldRenderTitle && (
+            <View>
+              <Text
+                style={[styles.himnoTitle, { fontSize: fontSize + 4, color: colors.text }]}
+              >
+                {id}. {himno.titulo.Tze}
+              </Text>
+            </View>
           )}
 
-          {himno.partes.map((parte, index) => renderParte(parte, index, "original"))}
+          {himno.versiculo && (
+            <Text style={[styles.versiculo, { color: colors.textSecondary }]}>
+              {himno.versiculo.Tze}
+            </Text>
+          )}
+
+          {himno.partes.map((parte, index) =>
+            renderParte(parte, index, "original")
+          )}
         </ScrollView>
       </View>
 
       {/* Menú flotante */}
       {showMenu ? (
         <View style={styles.menuContainer}>
-          <TouchableOpacity onPress={() => setFontSize((p) => Math.min(p + 2, 24))}>
-            <Text style={styles.menuText}>A+</Text>
+          <TouchableOpacity onPress={increaseFont}>
+            <Text style={[styles.menuText, { color: colors.text }]}>A+</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => setFontSize((p) => Math.max(p - 2, 12))}>
-            <Text style={styles.menuText}>A-</Text>
+          <TouchableOpacity onPress={decreaseFont}>
+            <Text style={[styles.menuText, { color: colors.text }]}>A-</Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {
-            setLanguage("esp");
-            setShowTranslation(true);
-          }}>
-            <Text style={[styles.menuText, language === "esp" && styles.activeLanguage]}>
+          <TouchableOpacity
+            onPress={() => {
+              setLanguage("esp");
+              setShowTranslation(true);
+            }}
+          >
+            <Text
+              style={[
+                styles.menuText,
+                { color: colors.text },
+                language === "esp" && styles.activeLanguage,
+              ]}
+            >
               ESP
             </Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {
-            setLanguage("eng");
-            setShowTranslation(true);
-          }}>
-            <Text style={[styles.menuText, language === "eng" && styles.activeLanguage]}>
+          <TouchableOpacity
+            onPress={() => {
+              setLanguage("eng");
+              setShowTranslation(true);
+            }}
+          >
+            <Text
+              style={[
+                styles.menuText,
+                { color: colors.text },
+                language === "eng" && styles.activeLanguage,
+              ]}
+            >
               ENG
             </Text>
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => {
-            setLanguage("original");
-            setShowTranslation(false);
-          }}>
-            <Text style={[styles.menuText, language === "original" && styles.activeLanguage]}>
+          <TouchableOpacity
+            onPress={() => {
+              setLanguage("original");
+              setShowTranslation(false);
+            }}
+          >
+            <Text
+              style={[
+                styles.menuText,
+                { color: colors.text },
+                language === "original" && styles.activeLanguage,
+              ]}
+            >
               TZE
             </Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={toggleFavorite}>
-            <Ionicons 
-              name={isFav ? "star" : "star-outline"} 
-              size={24} 
-              color={isFav ? "#FFD700" : "white"} 
+            <Ionicons
+              name={isFav ? "star" : "star-outline"}
+              size={24}
+              color={isFav ? "#FFD700" : colors.text}
             />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => setShowMenu(false)}>
-            <Ionicons name="close" size={24} color="white" />
+            <Ionicons name="close" size={24} color={colors.text} />
           </TouchableOpacity>
         </View>
       ) : (
         <TouchableOpacity
-          style={styles.menuButton}
+          style={[styles.menuButton, { backgroundColor: colors.accent }]}
           onPress={() => setShowMenu(true)}
         >
-          <Ionicons name="add" size={24} color="white" />
+          <Ionicons name="add" size={24} color={colors.text} />
         </TouchableOpacity>
       )}
-    </View>
+    </SafeAreaView>
   );
 }
